@@ -1,0 +1,15 @@
+{
+    "name": "Soft Sixth Finger Firmware Web flasher",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          { "path": "boot_app0.bin", "offset": 57344 },
+          { "path": "ssf-dyna_esp32_v2_left.ino.bin", "offset": 65536 },
+          { "path": "ssf-dyna_esp32_v2_left.ino.bootloader.bin", "offset": 4096 },
+          { "path": "ssf-dyna_esp32_v2_left.ino.partitions.bin", "offset": 32768 }
+        ]
+      }
+    ]
+  }
